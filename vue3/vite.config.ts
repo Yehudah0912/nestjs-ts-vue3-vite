@@ -60,7 +60,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
     proxy: {
       '/nest-api': {
         changeOrigin: true,
-        target:  'http://172.20.10.14:3000/'
+        target:  'http://192.168.31.133:3000/'
       }
     }
   }

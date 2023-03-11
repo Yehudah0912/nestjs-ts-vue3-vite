@@ -18,3 +18,9 @@
 
 [nestJS接口测试](https://www.apifox.cn/apidoc/shared-8378cce8-494a-4d31-8cb5-00a8a22832c8)
  配置redis，JWT，mongdb，typeorm ，路由守卫，加密盐，管道，过滤器，拦截器 ，日志
+
+
+ ## 运行步骤
+ - nest.env 配置好mongdb的数据库地址
+ - 开启redis服务
+ - vue.env VITE_APP_BASE_URL地址配置，让整个vue项目的地址都指向前台服务地址。

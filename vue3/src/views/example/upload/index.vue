@@ -74,7 +74,7 @@ const uploadChunks = async (chunksData, hash) => {
     return function(){
     return  request({
       method: "post",
-      url: "http://172.20.10.14:3000/nest-api/chunk/upload",
+      url: "http://192.168.31.133:3000/nest-api/chunk/upload",
       headers:{Authorization:`Bearer ${token}`},
       data: formData,
       //这里加入onprogress主要是获取每个区块的进度
